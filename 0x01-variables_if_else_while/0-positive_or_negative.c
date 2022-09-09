@@ -3,11 +3,11 @@
 #include<stdio.h>
 
 /**
- *  * main- program entry
- *   *
- *    * Description: to print n and see if value is positive or negetive
- *     *
- *      * Return: always 0
+ * main- program entry
+* 
+* Description: to print n and see if value is positive or negetive
+ *
+ * Return: always 0
  */
 int main(void)
 {
