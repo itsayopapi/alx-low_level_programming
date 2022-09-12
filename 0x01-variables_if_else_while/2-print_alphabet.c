@@ -1,12 +1,13 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /**
- * main - program entry
+ * main - Entry point
  *
- * Description: the program prints alphabets
+ * Description: print all aplhabet letters
  *
- * Return: 0 always
- */
+ * Return: Always 0 (Success)
+*/
+
 int main(void)
 {
 	char ch = 'a';
@@ -17,5 +18,6 @@ int main(void)
 		++ch;
 	}
 	putchar('\n');
+
 	return (0);
 }
