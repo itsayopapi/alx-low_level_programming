@@ -2,22 +2,12 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - print the value of n status: greater than, is zero and is not less than 6.
  *
- * Description: print the value of n status:
- *              greater than, is zero and is not less than 6.
- *
-<<<<<<< HEAD
- * Return: Always (Success)
+ * Return: Always 0 (Success)
  */
-//int main(void)
-=======
- * Return: Always O (Success)
-*/
 int main(void)
->>>>>>> 3cd1af4229de04da50d3fb7341a6658d210a51a8
-{
-	int n, digit;
+	{
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
