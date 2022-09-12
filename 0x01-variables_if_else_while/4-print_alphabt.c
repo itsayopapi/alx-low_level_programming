@@ -1,22 +1,23 @@
-#include<stdio.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
- * main - program entry
- *
- * Description: all alapgabets except q and e
- *
- * Return: 0 always
- */
+* main - Entry point
+*
+* Return: Always 0 (Success)
+*/
+
 int main(void)
 {
-	char ch = 'a';
+	char low, e, q;
 
-	while (ch <= 'z')
+	e = 'e';
+	q = 'q';
+	for (low = 'a'; low <= 'z'; low++)
 	{
-		if (ch == 'e' || ch == 'q')
-			++ch;
-		putchar(ch);
-		++ch;
+	if (low != e && low != q)
+	putchar(low);
 	}
 	putchar('\n');
 	return (0);

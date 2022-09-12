@@ -1,30 +1,21 @@
-#include<stdio.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
- * main - program entry
- *
- * Description: program prints both uppercase and lowercase
- *
- * Return: 0 always
- */
+* main - Entry point
+*
+* Return: Always 0 (Success)
+*/
+
 int main(void)
 {
-	char ch = 'a';
-	char CH = 'A';
+	char low;
 
-	/*prints lowercase*/
-	while (ch <= 'z')
-	{
-		putchar(ch);
-		++ch;
-	}
-
-	/*prints uppercase*/
-	while (CH <= 'Z')
-	{
-		putchar(CH);
-		++CH;
-	}
+	for (low = 'a'; low <= 'z'; low++)
+	putchar(low);
+	for (low = 'A'; low <= 'Z'; low++)
+	putchar(low);
 	putchar('\n');
 	return (0);
-} 
+}

@@ -1,22 +1,19 @@
-#include<stdio.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
- * main - program entry
- *
- * Description: print 0-9 using putchar while using int variable
- *
- * Return: 0 always
- */
+* main - Entry point
+*
+* Return: Always 0 (Success)
+*/
+
 int main(void)
 {
-	int digit = 0;
+	int d;
 
-	while (digit <= 9)
-	{
-		putchar(digit + '0');
-		++digit;
-	}
+	for (d = '0'; d <= '9'; d++)
+	putchar(d);
 	putchar('\n');
-
 	return (0);
 }

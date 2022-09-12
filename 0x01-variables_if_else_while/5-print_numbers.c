@@ -1,25 +1,19 @@
-#include<stdio.h>
-#include<time.h>
-#include<stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
- * main - program entry
- *
- * Description: program prints all single digit numbers
- *
- * Return: 0 always
- */
+* main - Entry point
+*
+* Return: Always 0 (Success)
+*/
 
 int main(void)
 {
-	int digit = 0;
+	int i;
 
-	while (digit <= 9)
-	{
-		printf("%i", digit);
-		++digit;
-	}
+	for (i = 0; i < 10; i++)
+	printf("%d", i);
 	printf("\n");
-
 	return (0);
 }
