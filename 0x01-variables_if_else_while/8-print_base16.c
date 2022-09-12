@@ -1,25 +1,22 @@
-#include<stdio.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
- * main - program entry
- *
- * Description: print numbers with base16 in lowercase
- *
- * Return: 0 always
- */
+* main - Entry point
+*
+* Return: Always 0 (Success)
+*/
+
 int main(void)
 {
-	int digit = 48;
+	int d;
+	char low;
 
-	while (digit <= 102)
-	{
-		putchar(digit);
-
-		if (digit == 57)
-			digit += 39;
-		++digit;
-	}
+	for (d = '0'; d <= '9'; d++)
+	putchar(d);
+	for (low = 'a'; low <= 'f'; low++)
+	putchar(low);
 	putchar('\n');
-
 	return (0);
 }
