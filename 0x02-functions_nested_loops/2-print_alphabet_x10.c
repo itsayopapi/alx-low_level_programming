@@ -1,18 +1,18 @@
-#include "main.h"
+#include"main.h"
 
 /**
- * print_alphabet_x10 -> prints the lowercase alphabets
+ * print_alphabet_x10 - it will print 10x alphabet
+ *
  */
 
 void print_alphabet_x10(void)
 {
-	int j;
-	int x;
+	int line, ch;
 
-	for (x=0; x< 10; x++)
+	for (line = 0; line <= 9; ++line)
 	{
-		for (j= "a"; j<=`z`; j++)
-		{
-			_putchar(j);
-		}
+		for (ch = 'a'; ch <= 'z'; ++ch)
+			_putchar(ch);
+		_putchar('\n');
+	}
 }
