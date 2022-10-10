@@ -1,17 +1,6 @@
-#include "0-object_like_macro.h"
-#include "0-object_like_macro.h"
-#include <stdio.h>
+#ifndef OBJECT_LIKE_MACRO_H
+#define OBJECT_LIKE_MACRO_H
+#define SIZE 1024
 
-/**
- * main - check the code
- *
- * Return: Always 0.
- */
-int main(void)
-{
-    int s;
 
-    s = 98 + SIZE;
-    printf("%d\n", s);
-    return (0);
-}
+#endif /* 0-OBJECT_LIKE_MACRO_H */
