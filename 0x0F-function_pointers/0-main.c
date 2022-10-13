@@ -39,7 +39,7 @@ void print_name_uppercase(char *name)
 }
 
 /**
- * main - check the code for ALX School students.
+ * main - check the code for HOLBERTON School students.
  *
  * Return: Always 0.
  */
